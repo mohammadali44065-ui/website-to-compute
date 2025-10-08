@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belleveda Beauty</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffafc;
+      color: #333;
+    }
+
+    header {
+      background-color: #e0b1cb;
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: #f8e8ef;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #c37b98;
+    }
+
+    section {
+      padding: 40px 10%;
+    }
+
+    section h2 {
+      color: #c37b98;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      line-height: 1.6;
+      font-size: 1em;
+    }
+
+    .image-placeholder {
+      width: 100%;
+      height: 300px;
+      background-color: #f0dce5;
+      border: 2px dashed #c37b98;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #c37b98;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    footer {
+      background-color: #f8e8ef;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .contact {
+      background-color: #fff0f6;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .whatsapp:hover {
+      background-color: #1ebc5a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Belleveda Beauty</h1>
+    <p>Beauty and Personal Care for Every Soul</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#founder">Founder</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Belleveda Beauty</h2>
+    <p>Belleveda Beauty is your destination for pure, elegant, and natural beauty care. We believe every individual deserves
+      to feel confident and radiant using products that care for both skin and soul. Our aim is to deliver premium quality
+      beauty and personal care essentials right to your doorstep.</p>
+
+    <div class="image-placeholder">Add Home Page Image Here</div>
+
+    <p><strong>Cash on Delivery Available</strong> – shop confidently, pay when your order arrives at your door.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Belleveda</h2>
+    <p>Founded with a passion for natural beauty, Belleveda Beauty stands for authenticity, elegance, and self-care. We bring
+      you a thoughtfully curated range of personal care products designed for all skin types, crafted with care and love.</p>
+
+    <div class="image-placeholder">Add About Section Image Here</div>
+
+    <p>Our products combine tradition with modern care science, ensuring your skin gets the nourishment it truly deserves.</p>
+  </section>
+
+  <section id="founder">
+    <h2>Meet the Founder</h2>
+    <p><strong>Mohammad Sarim Ali</strong>, the visionary behind Belleveda Beauty, started this brand to make self-care simple,
+      affordable, and genuinely effective. With a strong belief in quality and trust, he aims to redefine beauty care for
+      everyone.</p>
+
+    <div class="image-placeholder">Add Founder Image Here</div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Reach out directly through WhatsApp or give us a call.</p>
+    <p><strong>Phone / WhatsApp:</strong> <a href="https://wa.me/91639203875" class="whatsapp">Chat on WhatsApp</a></p>
+    <p><strong>Available:</strong> Monday to Saturday, 10 AM – 6 PM</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Belleveda Beauty. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
